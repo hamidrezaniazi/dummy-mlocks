@@ -1,6 +1,7 @@
 # Dummy MySQL Locks Simulation
 This project is created to simulate MySQL locks using a Docker environment to help understand the behavior of online DDL operations and their impact on database locks, as discussed in [this article](https://medium.com/@hamidrezaniazi/behind-the-scenes-of-mysql-online-ddl-locks-638804b777b3).
 
+![Demo](./img/demo.gif)
 ## Requirements
 - Docker
 - Docker Compose
