@@ -1,0 +1,17 @@
+services:
+  mlocks-v5:
+    restart: always
+    container_name: "mlocks-v5"
+    image: "mysql:5.7"
+    stdin_open: true
+    tty: true
+    environment:
+       MYSQL_ALLOW_EMPTY_PASSWORD: yes
+  mlocks-v8:
+    restart: always
+    container_name: "mlocks-v8"
+    image: "mysql:8.3"
+    stdin_open: true
+    tty: true
+    environment:
+       MYSQL_ALLOW_EMPTY_PASSWORD: yes
