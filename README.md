@@ -11,7 +11,7 @@ Clone the repository:
 
 ```sh
 git clone <repository-url>
-cd dummy-mlocks-master
+cd dummy-mlocks
 ```
 
 Copy the example environment file:
@@ -23,7 +23,7 @@ cp .env.example .env
 Update the `.env` file with your configurations if needed.
 - `DB_CONTAINER` : The name of the Docker container running the MySQL database. Possible values are `mlocks-v8` for MySQL 8.3 or `mlocks-v5` for MySQL 5.7.
 - `EXEC_DELAY` : The delay in seconds used for simulating long-running operations.
-- `ALGORITHM_LOCK` : The algorithm and lock type used for online DDL operations. Possible values are `INSTANT`, `INPLACE`, or `COPY`.
+- `ALGORITHM_LOCK` : The algorithm used for online DDL operations. Possible values are `INSTANT`, `INPLACE`, or `COPY`.
 
 
 Build and start the Docker containers:
