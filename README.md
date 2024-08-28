@@ -10,7 +10,7 @@ This project is created to simulate MySQL locks using a Docker environment to he
 Clone the repository:
 
 ```sh
-git clone <repository-url>
+git clone git@github.com:hamidrezaniazi/dummy-mlocks.git
 cd dummy-mlocks
 ```
 
